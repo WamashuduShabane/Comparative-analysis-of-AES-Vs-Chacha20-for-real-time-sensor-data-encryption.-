@@ -19,6 +19,11 @@ The experiments were executed in a controlled, reproducible simulation environme
 * **Cryptography Libraries:** * `PyCryptodome` (for AES-128 GCM implementation)
   * `PyNaCl` (for ChaCha20-Poly1305 implementation)
 * **Data Visualization:** `Matplotlib` and `Seaborn`
+* **Evaluation METRICS:**
+  * <img width="1613" height="674" alt="image" src="https://github.com/user-attachments/assets/f95cf073-c4c0-46ef-9746-1a86a4aed28d" />
+  * <img width="668" height="661" alt="image" src="https://github.com/user-attachments/assets/d404503a-4bc3-4dd6-a126-2b6f548416c1" />
+
+
 
 ## 📈 Visual Results
 
@@ -38,7 +43,7 @@ The experiments were executed in a controlled, reproducible simulation environme
 ### 3. Encryption Throughput for Large Payloads
 > *Throughput (MB/s) comparison including hardware-accelerated AES-NI on 1MB, 5MB, and 10MB payloads.*
 > <img width="1165" height="613" alt="image" src="https://github.com/user-attachments/assets/6de76b91-a53a-4ff0-9c05-7f7ebe9c490d" />
-<img width="828" height="651" alt="image" src="https://github.com/user-attachments/assets/43eabb0e-7b89-4a6f-a4cd-c0aa2c41cd54" />
+
 
 
 ## 📊 Key Findings
