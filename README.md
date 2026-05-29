@@ -1,5 +1,4 @@
 # Comparative-analysis-of-AES-Vs-Chacha20-for-real-time-sensor-data-encryption.-
-
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![IoT Security](https://img.shields.io/badge/Security-IoT-success.svg)
 ![Google Colab](https://img.shields.io/badge/Environment-Google_Colab-orange.svg)
@@ -20,6 +19,27 @@ The experiments were executed in a controlled, reproducible simulation environme
 * **Cryptography Libraries:** * `PyCryptodome` (for AES-128 GCM implementation)
   * `PyNaCl` (for ChaCha20-Poly1305 implementation)
 * **Data Visualization:** `Matplotlib` and `Seaborn`
+
+## 📈 Visual Results
+
+<!-- 🖼️ ADD YOUR IMAGES HERE: Replace 'path/to/your/image.png' with the actual file paths once you upload the images to your GitHub repository (e.g., 'images/figure3.png'). -->
+
+### 1. Encryption and Decryption Time for Small Payloads
+
+<img width="1629" height="640" alt="image" src="https://github.com/user-attachments/assets/03a38dac-3240-4ec0-8cc4-9684840b470e" />
+
+### 2.Comparison of AES vs. ChaCha20 on 1KB, 2KB, 5KB, and 10KB payloads.
+ <img width="1023" height="605" alt="image" src="https://github.com/user-attachments/assets/79b805fe-e3c0-4d88-9cc3-460a4500e1a8" />
+
+### 3. Decryption of AES Vs Chacha20 on 1KB, 2KB, 5KB, and 10KB payloads.
+<img width="1265" height="736" alt="image" src="https://github.com/user-attachments/assets/3d4ebd6f-3a02-4987-8e0e-9bfa0c5dfc3c" />
+
+
+### 3. Encryption Throughput for Large Payloads
+> *Throughput (MB/s) comparison including hardware-accelerated AES-NI on 1MB, 5MB, and 10MB payloads.*
+> <img width="1165" height="613" alt="image" src="https://github.com/user-attachments/assets/6de76b91-a53a-4ff0-9c05-7f7ebe9c490d" />
+<img width="828" height="651" alt="image" src="https://github.com/user-attachments/assets/43eabb0e-7b89-4a6f-a4cd-c0aa2c41cd54" />
+
 
 ## 📊 Key Findings
 1. **Small Payloads (IoT Edge Devices):** ChaCha20 demonstrated superior performance in purely software-based environments, processing 10KB payloads in ~1.4ms compared to software-based AES's 4.0ms. Its stream cipher design makes it highly optimized for microcontrollers lacking specialized hardware.
